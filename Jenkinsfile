@@ -8,4 +8,10 @@ pipeline {
             }
         }
     }
+	post{
+		always {
+			echo 'This should always echo'
+		}
+	}	
+			
 }
